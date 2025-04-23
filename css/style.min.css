@@ -10147,7 +10147,16 @@ button.finish:hover {
 	border-radius: 20px;
 	border: 1.5px dashed #e5eaee;
 	padding: 40px;
+}
 
+.vozmi-article p {
+	line-height: 1.6;
+}
+
+@media (max-width: 575px) {
+	.vozmi-article p {
+		font-size: 15px;
+	}
 }
 .vozmi-article:not(:last-child) {
 	margin-bottom: 50px;
@@ -10228,3 +10237,121 @@ button.finish:hover {
 	}
 }
 
+h3.obshaya-subtitle[class] {
+	margin-top: 0px;
+	margin-bottom: 30px;
+	font-size: 28px;
+}
+
+h3.obshaya-subtitle[class]:not(:first-child) {
+	margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+	h3.obshaya-subtitle[class]:not(:first-child) {
+		margin-top: 20px;
+	}
+}
+@media (max-width: 565px) {
+	h3.obshaya-subtitle[class] {
+		margin-bottom: 20px;
+		font-size: 22px;
+	}
+}
+
+.vozmi-list {
+	padding-bottom: 40px;
+	border-bottom: 1.5px dashed #e5eaee;
+}
+
+@media (max-width: 768px) {
+	.vozmi-list {
+		padding-bottom: 30px;
+	}
+}
+
+@media (max-width: 575px) {
+	.vozmi-list {
+		padding-bottom: 20px;
+	}
+}
+
+.obshaya-warning {
+	display: flex;
+		 align-items: flex-start;
+		 gap: 30px;
+		 margin-top: 30px;
+}
+
+.vozmi-article.obshaya-warning.vozmi-warning {
+	align-items: flex-start;
+}
+@media (max-width: 575px) {
+	.obshaya-warning {
+		margin-top: 20px;
+	}
+}
+.obshaya-item:not(:last-child) {
+	margin-bottom: 50px;
+}
+
+@media (max-width: 991px) {
+	.obshaya-item:not(:last-child) {
+		margin-bottom: 40px;
+	}
+}
+
+@media (max-width: 767px) {
+	.obshaya-item:not(:last-child) {
+		margin-bottom: 30px;
+	}
+}
+
+.obshaya-text:not(:last-child) {
+	margin-bottom: 40px;
+}
+@media (max-width: 991px) {
+	.obshaya-text:not(:last-child) {
+		margin-bottom: 30px;
+	}
+}
+@media (max-width: 767px) {
+	.obshaya-text:not(:last-child) {
+		margin-bottom: 20px;
+	}
+}
+
+.vozmi-warning-text.decor-warning {
+	color: #307ebc;
+	font-weight: 600;
+	margin-top: 30px;
+}
+
+.obshaya-requests {
+	margin-bottom: 80px;
+}
+
+@media (max-width: 767px) {
+	.obshaya-requests {
+		margin-bottom: 70px;
+	}
+}
+
+@media (max-width: 575px) {
+	.obshaya-requests {
+		margin-bottom: 60px;
+	}
+}
+.requests-item {
+	padding-left: 20px;
+	border-left: 4px solid #dfe7ec;
+}
+.requests-item:not(:last-child) {
+	margin-bottom: 40px;
+}
+
+@media (max-width: 991px) {
+	.requests-item:not(:last-child) {
+		margin-bottom: 30px;
+	}
+}
